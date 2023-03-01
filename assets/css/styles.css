@@ -465,9 +465,9 @@ body.dark-theme {
 }
 
 /* For medium devices */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 576px) {
   .projects__content {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: 332px;
     justify-content: center;
   }
 
@@ -480,7 +480,7 @@ body.dark-theme {
 @media screen and (min-width: 776px) {
   .projects__content,
   .skills__content {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 332px);
   }
 
   .skills__content {
@@ -514,7 +514,7 @@ body.dark-theme {
     height: 120px;
   }
   .profile__perfil img {
-    width: 100%;
+    width: 90px;
   }
   .profile__profession {
     margin-bottom: 1.5rem;
