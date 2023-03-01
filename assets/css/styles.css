@@ -211,13 +211,14 @@ body.dark-theme {
 }
 
 .profile__info {
-  grid-template-columns: repeat(3, max-content);
+ 
   justify-content: center;
   column-gap: 2.5rem;
 }
 
 .profile__info-group {
   text-align: center;
+  max-width: 450px;
 }
 
 .profile__info-number {
@@ -228,6 +229,7 @@ body.dark-theme {
 .profile__info-description {
   font-size: var(--smaller-font-size);
   font-weight: 500;
+  margin-bottom: 10px;
 }
 
 .profile__buttons, 
@@ -463,9 +465,9 @@ body.dark-theme {
 }
 
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 450px) {
   .projects__content {
-    grid-template-columns: 332px;
+    grid-template-columns: repeat(2, 200px);
     justify-content: center;
   }
 
@@ -478,7 +480,7 @@ body.dark-theme {
 @media screen and (min-width: 776px) {
   .projects__content,
   .skills__content {
-    grid-template-columns: repeat(2, 332px);
+    grid-template-columns: repeat(2, 200px);
   }
 
   .skills__content {
