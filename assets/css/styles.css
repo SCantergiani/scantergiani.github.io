@@ -475,6 +475,10 @@ body.dark-theme {
     width: 332px;
     margin: 3rem auto;
   }
+   .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
 }
 
 @media screen and (min-width: 776px) {
@@ -486,6 +490,10 @@ body.dark-theme {
   .skills__content {
     justify-content: center;
     column-gap: 3rem;
+  }
+   .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
   }
 }
 
